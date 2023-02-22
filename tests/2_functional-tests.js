@@ -71,11 +71,11 @@ suite('Functional Tests', function () {
     });
   });
 const Browser = require('zombie');
-Browser.site = 'http://localhost:3000/';
+Browser.site = 'https://jlparagas.github.io/boilerplate-mochachai-main/';
 const browser = new Browser();
 
   suiteSetup(function(done) {
-  return browser.visit('http://localhost:3000/', done);
+  return browser.visit('https://jlparagas.github.io/boilerplate-mochachai-main/', done);
   });
 
   suite('Functional Tests with Zombie.js', function () {
